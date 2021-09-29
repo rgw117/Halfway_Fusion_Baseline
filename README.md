@@ -38,7 +38,7 @@ Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http
 
 평가에 사용한 annotation 파일은 아래의 구글드라이브 링크에 들어가면 존재하는 "kaist_annotations_test20.json" 입니다. 이는 위의 Set 06~11 에 있는 데이터중 일부 데이터를 뽑아서 재가공한 annotations 이며, 현재 카이스트 데이터셋 기반 보행자인식 연구에서 성능평가시에 가장 보편적으로 사용하는 test annotations 입니다.
 
-학습에는 xml파일 형식으로 저장되어있는 annotations을 파씽하여 사용하였으며, annotations파일은 마찬가지로 아래 구글드라이브에 업로드되어있습니다.
+학습에는 annotations-xml-15-2폴더에 xml형식으로 저장되어있는 annotations 파일들을 파씽하여 사용하였으며, 해당파일은 마찬가지로 아래 구글드라이브에 업로드되어있습니다.
 
 [구글드라이브링크](https://drive.google.com/drive/folders/1brr2fkGhG_up0C9zKwosoMF7XW14g4ec?usp=sharing)
 
