@@ -4,7 +4,6 @@
 
 만약 아래의 링크들이 열리지 않으면 chrome이 아닌 다른 브라우저로 시도해보세요.
 
-[All Annotations, 48 MB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/annotations.tar)
 
 ### Train
 
@@ -37,8 +36,13 @@ Set 10 / Night / Road / 8,902 frames / 4,987 objects [Download, 3.75GB](http://m
 
 Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set11.zip)
 
+평가에 사용한 annotation 파일은 아래의 구글드라이브 링크에 들어가면 존재하는 "kaist_annotations_test20.json" 입니다. 이는 위의 Set 06~11 에 있는 데이터중 일부 데이터를 뽑아서 재가공한 annotations 이며, 현재 카이스트 데이터셋 기반 보행자인식 연구에서 성능평가시에 가장 보편적으로 사용하는 test annotations 입니다.
 
-위의 Test 데이터셋의 리스트는 카이스트 데이터셋 오리지널 페이퍼에서 정의한 테스트셋이며, 리더보드를 구성할 때 사용한 테스트 어노테이션 파일은 root directory에  있는 "kaist_annotations_test20.json" 입니다. 이는 위의 Set 06~11 에 있는 데이터중 일부 데이터를 뽑아서 재가공한 annotations 이며, 현재 카이스트 데이터셋 기반 보행자인식 연구에서 성능평가시에 가장 보편적으로 사용하는 test annotations 입니다.
+학습에는 xml파일 형식으로 저장되어있는 annotations을 파씽하여 사용하였으며, annotations파일은 마찬가지로 아래 구글드라이브에 업로드되어있습니다.
+
+[구글드라이브링크](https://drive.google.com/drive/folders/1brr2fkGhG_up0C9zKwosoMF7XW14g4ec?usp=sharing)
+
+
 
 ## 베이스라인 코드 다운로드 & 실행
 - 코드 깃클론으로 다운받기
