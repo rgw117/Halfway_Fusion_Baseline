@@ -1,9 +1,10 @@
 # Halfway Fusion 베이스라인 코드
 ## 데이터셋 준비
-우선 카이스트 데이터셋와 annotation 파일을 다운로드 합니다.
+우선 카이스트 데이터셋을 다운로드 합니다. 용량이 좀 큰편이니 넉넉한 용량을 확보합시다.
+
+만약 아래의 링크가 열리지 않으면 chrome이 아닌 다른 브라우저로 시도해보세요.
 
 [All Data, 35.9 GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/videos.tar)
-
 [All Annotations, 48 MB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/annotations.tar)
 
 ### Train
@@ -34,6 +35,9 @@ Set 09 / Night / Campus / 1.38GB / 3,500 frames / 3,577 objects
 Set 10 / Night / Road / 3.75GB / 8,902 frames / 4,987 objects
 
 Set 11 / Night / Downtown / 1.33GB / 3,560 frames / 6,655 objects
+
+
+위의 Test 데이터셋의 리스트는 카이스트 데이터셋 오리지널 페이퍼에서 정의한 테스트셋이며, 리더보드를 구성할 때 사용한 테스트 어노테이션 파일은 root directory에  있는 "kaist_annotations_test20.json" 입니다. 이는 위의 Set 06~11 에 있는 데이터중 일부 데이터를 뽑아서 재가공한 annotations 이며, 현재 카이스트 데이터셋 기반 보행자인식 연구에서 성능평가시에 가장 보편적으로 사용하는 test annotations 입니다.
 
 ## 베이스라인 코드 다운로드 & 실행
 - 코드 깃클론으로 다운받기
