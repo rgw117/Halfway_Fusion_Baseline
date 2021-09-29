@@ -57,6 +57,9 @@ Set 11 / Night / Downtown / 1.33GB / 3,560 frames / 6,655 objects
 
 `OMP_NUM_THREADS=1 python train.py train`
 
+만약 GPU 메모리가 부족한 경우 batch size를 줄이고 시도해봅시다.
+
+
 ## 결과물 제출
 
 코드가 정상적으로 실행되었으면, 설치폴더/checkpoints 폴더에 결과파일이 json 형식으로 저장됨. 해당 파일을 리더보드에 제출하면 됨.
