@@ -19,7 +19,6 @@ Set 04 / Night / Road / 7,200 frames / 17,579 objects [Download, 2.88GB](http://
 
 Set 05 / Night / Downtown / 2,920 frames / 4,655 objects [Download, 1.01GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set05.zip)
 
-다운받은 이미지 Set들을 한개의 디렉토리에 위치시킵니다.
 
 
 ### Test
@@ -41,6 +40,16 @@ Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http
 학습에는 annotations-xml-15-2폴더에 xml형식으로 저장되어있는 annotations 파일들을 파씽하여 사용하였으며, 해당파일은 마찬가지로 아래 구글드라이브에 업로드되어있습니다.
 
 [구글드라이브링크](https://drive.google.com/drive/folders/1brr2fkGhG_up0C9zKwosoMF7XW14g4ec?usp=sharing)
+
+다운로드받은 파일들은 폴더를 한개 생성한 후 해당폴더에 아래와 같은 형식으로 위치 시켜주시면 됩니다.
+1. cd 루트디렉토리
+2. mkdir datasets
+
+구글드라이브에서 다운로드 받은 파일들을 아래와같이 위치시킴.
+
+1. 루트디렉토리/datasets/kaist_annotations_test20.json
+2. 루트디렉토리/datasets/images/set{00~11}
+3. 루트디렉토리/datasets/imageSets/train-all-02.txt
 
 
 ## 개발환경
