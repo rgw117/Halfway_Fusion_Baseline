@@ -81,6 +81,10 @@ Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http
 
 만약 GPU 메모리가 부족한 경우 batch size를 줄이고 시도해봅시다.
 
+## 참고자료
+- [1] Multispectral Pedestrian Detection: Benchmark Dataset and Baseline (CVPR 2015) [링크]
+- [2] Multispectral Deep Neural Networks for Pedestrian Detection (BMVC 2016) [링크]
+- 발표동영상
 
 ## 결과물 제출
 
