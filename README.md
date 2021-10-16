@@ -89,6 +89,7 @@ Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http
 ## SOTA 달성을 위해 참고해볼만한 자료 모음
 - [YOLO X 코드](https://github.com/Megvii-BaseDetection/YOLOX?utm_source=catalyzex.com)
 - [YOLO X 페이퍼](https://arxiv.org/abs/2107.08430)
+- [현재 SOTA 코드공개X](https://www.mdpi.com/1424-8220/21/12/4184/htm)
 
 ## 결과물 제출
 
