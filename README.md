@@ -83,9 +83,6 @@ Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http
 ## 평가지표
 Recall과 Miss-rate를 사용하였으며, miss-rate는 FPPI(False positive per image sample) 기준으로 (10^-2, 10^0) 구간에서의 miss-rate의 평균값을 사용합니다. 해당 평가지표에 대한 설명은 베이스라인 설명동영상에 포함이 되어있습니다.
 
-## 제출양식
-
-
 ## 참고자료
 - [1] Multispectral Pedestrian Detection: Benchmark Dataset and Baseline (CVPR 2015) [데이터셋논문](https://openaccess.thecvf.com/content_cvpr_2015/papers/Hwang_Multispectral_Pedestrian_Detection_2015_CVPR_paper.pdf)
 - [2] Multispectral Deep Neural Networks for Pedestrian Detection (BMVC 2016) [Halfway 논문](https://arxiv.org/pdf/1611.02644.pdf)
@@ -98,4 +95,9 @@ Recall과 Miss-rate를 사용하였으며, miss-rate는 FPPI(False positive per 
 
 ## 결과물 제출
 
-코드가 정상적으로 실행되었으면, 설치폴더/checkpoints 폴더에 결과파일이 json 형식으로 저장됨. 해당 파일을 리더보드에 제출하면 됨.
+코드가 정상적으로 실행되었으면, 설치폴더/checkpoints 폴더에 결과파일이 json 형식으로 저장됨. 해당 파일을 리더보드에 제출하면 됩니다.
+
+결과물에 대한 예시는 아래와 같습니다.
+
+![image](https://user-images.githubusercontent.com/67646870/137579091-ea0be76f-3cd8-4cd0-83a7-8e97925b63e1.png)
+
