@@ -86,6 +86,10 @@ Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http
 - [2] Multispectral Deep Neural Networks for Pedestrian Detection (BMVC 2016) [Halfway 논문](https://arxiv.org/pdf/1611.02644.pdf)
 - [발표동영상](https://youtu.be/OP2DG5zRcgs)
 
+## SOTA 달성을 위해 참고해볼만한 자료 모음
+- [YOLO X 코드](https://github.com/Megvii-BaseDetection/YOLOX?utm_source=catalyzex.com)
+- [YOLO X 페이퍼](https://arxiv.org/abs/2107.08430)
+
 ## 결과물 제출
 
 코드가 정상적으로 실행되었으면, 설치폴더/checkpoints 폴더에 결과파일이 json 형식으로 저장됨. 해당 파일을 리더보드에 제출하면 됨.
