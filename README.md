@@ -68,7 +68,7 @@ Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http
 
 - 필요 패키지 다운로드
 
-`pip install -r requirements.txt`
+`pip install -r requirements.txt` (불필요한 패키지가 포함되어있을 수 있으므로 필요한 패키지 하나씩 다운로드 권장)
 
 - 데이터 및 어노테이션 폴더 변경
 
