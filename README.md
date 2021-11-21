@@ -50,6 +50,9 @@ Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http
 1. 루트디렉토리/datasets/kaist_annotations_test20.json
 2. 루트디렉토리/datasets/images/set{00~11}
 3. 루트디렉토리/datasets/imageSets/train-all-02.txt
+4. 루트디렉토리/datasets/imageSets/test-all-20.txt
+
+※ 현재 set05만 경로가 다른 set들과 다른걸로 확인되고 있습니다. 다른 set들과 동일하게 V000, V001을 생성하여 해결하여주세요. 데이터셋 다운로드가 좀 더 쉽도록 빠른시일내에 편리하게 다운로드 할 수 있는 shell script를 지원하겠습니다. 
 
 ## 개발환경
 
