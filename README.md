@@ -1,39 +1,37 @@
 # Halfway Fusion 베이스라인 코드
 ## 데이터셋 준비
-우선 카이스트 데이터셋을 다운로드 합니다. 용량이 좀 큰편이니 넉넉한 용량을 확보합시다. 하나씩 클릭하셔서 다운로드 받으셔야하며, 다운로드 받은 Set00~Set11 파일을 동일한 한개의 디렉토리에 위치시킵니다.
 
-만약 아래의 링크들이 열리지 않으면 chrome이 아닌 다른 브라우저로 시도해보세요.
-
+**※ 데이터셋 다운로드 및 경로를 설정해주는 shell script를 추가하였습니다. [해당링크](https://github.com/rgw117/Halfway_Fusion_Baseline/blob/master/scripts/readme.md)를 참고하시고 활용해주세요.**
 
 ### Train
 
-Set 00 / Day / Campus / 17,498 frames / 11,016 objects [Download, 5.92GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set00.zip)
+Set 00 / Day / Campus / 17,498 frames / 11,016 objects
 
-Set 01 / Day / Road / 8,035 frames / 8,550 objects [Download, 2.82GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set01.zip)
+Set 01 / Day / Road / 8,035 frames / 8,550 objects
 
-Set 02 / Day / Downtown / 7,866 frames / 11,493 objects [Download, 3.08GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set02.zip)
+Set 02 / Day / Downtown / 7,866 frames / 11,493 objects
 
-Set 03 / Night / Campus / 6,668 frames / 7,418 objects [Download, 2.40GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set03.zip)
+Set 03 / Night / Campus / 6,668 frames / 7,418 objects
 
-Set 04 / Night / Road / 7,200 frames / 17,579 objects [Download, 2.88GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set04.zip)
+Set 04 / Night / Road / 7,200 frames / 17,579 objects
 
-Set 05 / Night / Downtown / 2,920 frames / 4,655 objects [Download, 1.01GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set05.zip)
+Set 05 / Night / Downtown / 2,920 frames / 4,655 objects
 
 
 
 ### Test
 
-Set 06 / Day / Campus / 12,988 frames / 12,086 objects [Download, 4.78GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set06.zip)
+Set 06 / Day / Campus / 12,988 frames / 12,086 objects
 
-Set 07 / Day / Road / 8,141 frames / 4,225 objects [Download, 3.04GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set07.zip)
+Set 07 / Day / Road / 8,141 frames / 4,225 objects
 
-Set 08 / Day / Downtown / 8,050 frames / 23,309 objects [Download, 3.50GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set08.zip)
+Set 08 / Day / Downtown / 8,050 frames / 23,309 objects
 
-Set 09 / Night / Campus / 3,500 frames / 3,577 objects [Download, 1.38GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set09.zip)
+Set 09 / Night / Campus / 3,500 frames / 3,577 objects
 
-Set 10 / Night / Road / 8,902 frames / 4,987 objects [Download, 3.75GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set10.zip)
+Set 10 / Night / Road / 8,902 frames / 4,987 objects
 
-Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http://multispectral.kaist.ac.kr/pedestrian/data-kaist/images/set11.zip)
+Set 11 / Night / Downtown / 3,560 frames / 6,655 objects
 
 평가에 사용한 annotation 파일은 아래의 구글드라이브 링크에 들어가면 존재하는 "kaist_annotations_test20.json" 입니다. 이는 위의 Set 06~11 에 있는 데이터중 일부 데이터를 뽑아서 재가공한 annotations 이며, 현재 카이스트 데이터셋 기반 보행자인식 연구에서 성능평가시에 가장 보편적으로 사용하는 test annotations 입니다.
 
@@ -52,7 +50,6 @@ Set 11 / Night / Downtown / 3,560 frames / 6,655 objects [Download, 1.33GB](http
 3. 루트디렉토리/datasets/imageSets/train-all-02.txt
 4. 루트디렉토리/datasets/imageSets/test-all-20.txt
 
-※ 현재 set05만 경로가 다른 set들과 다른걸로 확인되고 있습니다. 다른 set들과 동일하게 V000, V001을 생성하여 해결하여주세요. 데이터셋 다운로드가 좀 더 쉽도록 빠른시일내에 편리하게 다운로드 할 수 있는 shell script를 지원하겠습니다. 
 
 ## 개발환경
 
